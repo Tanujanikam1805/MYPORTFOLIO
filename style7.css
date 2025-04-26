@@ -1,0 +1,218 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #181818;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+.sidebar h2 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: red;
+}
+
+
+.content {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    padding: 40px;
+}
+
+#about {
+    background: #ede8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    gap: 30px;
+}
+
+
+.image-container img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid black;
+    margin-right: 50PX ;
+}
+
+
+.about-text {
+    max-width: 600px;
+    font-size: 18px;
+}
+
+.highlight-text {
+    font-size:30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.bold-text {
+    background-color: blue;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+
+.about-text P {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    margin-left:25PX;
+}
+.section1{
+    height:1000px;
+    width:auto;
+}
+.section{
+    height:600px;
+    width:auto;
+}
+#achievement{
+    background-color: #c8c3c3;
+}
+#contact{
+    background-color: #8e8c8c;
+}
+.achievement-text {
+    font-size:30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 50PX;
+    padding: 35PX;
+}
+#SQL{
+    HEIGHT:300PX;
+    display: inline-block;
+    width: 200PX;
+    BORDER:2PX SOLID BLACK;
+    margin: 10px;
+    margin-bottom: 50PX;
+    background-size: cover;
+
+}
+#TWELTH{
+    HEIGHT:300PX;
+    display:inline-block;
+    width: 200PX;
+    BORDER:2PX SOLID BLACK;
+    margin: 10px;
+    margin-bottom: 50PX;
+    background-size: cover;
+
+}
+#TENTH{
+    HEIGHT:300PX;
+    display: inline-block;
+    width: 200PX;
+    BORDER:2PX SOLID BLACK;
+    margin: 10px;
+    margin-bottom: 50PX;
+    background-size: cover;
+
+}
+#AVINYA{
+    HEIGHT:300PX;
+    display: inline-block;
+    width: 200PX;
+    BORDER:2PX SOLID BLACK;
+    margin: 10px;
+    margin-bottom: 50PX;   
+    background-size: cover;
+
+}
+#MANTHAN{
+    HEIGHT:300PX;
+    display: inline-block;
+    width: 200PX;
+    BORDER:2PX SOLID BLACK;
+    margin: 10px;
+    margin-bottom: 50PX;
+    background-size: cover;
+
+}
+H5
+{
+   MARGIN: 500PX;
+  color: black;
+   margin-bottom: 10px;
+   margin-top: 25px;
+    text-align:center;
+    font-weight:bold;
+    font-size: 25PX;
+    display: inline-block;
+}
+h4{
+    font-weight:200;
+    font-size: 25PX;
+    margin-left: 20px;
+    color: rgb(2, 2, 2);
+}
+.info{
+    margin-left:20px;
+  font-weight: bold;
+    font-size: 25PX; 
+   
+}
+button{
+    background-color:white;
+}
+.link{
+    color: blue;
+font-weight: bold;
+font-size: 20px;
+}
